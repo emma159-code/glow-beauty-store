@@ -1,0 +1,154 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#fdf7f7;
+}
+
+/* Navbar */
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 50px;
+    background:white;
+    box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo{
+    font-size:24px;
+    font-weight:bold;
+    color:#e91e63;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:20px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:#333;
+    font-weight:bold;
+}
+
+/* Hero */
+.hero{
+    text-align:center;
+    padding:100px 20px;
+}
+
+.hero h1{
+    font-size:48px;
+    color:#e91e63;
+}
+
+.hero p{
+    margin-top:20px;
+    font-size:18px;
+}
+
+.hero button{
+    margin-top:30px;
+    padding:12px 25px;
+    border:none;
+    background:#e91e63;
+    color:white;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+/* Footer */
+footer{
+    background:#222;
+    color:#444;
+    text-align:center;
+    padding:20px;
+    margin-top:100px;
+}
+
+.hero{
+    background:url('../images/free.jpg');
+    background-size:cover;
+    background-position:center;
+    color:#444;
+    height:80vh;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.products{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    padding:50px;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:250px;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+.card button{
+    margin-top:10px;
+    padding:10px;
+    background:#e91e63;
+    color:white;
+    border:none;
+    border-radius:5px;
+}
+
+.checkout-container{
+    width:500px;
+    margin:50px auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.checkout-container h1{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.checkout-container input,
+.checkout-container textarea{
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+.checkout-container button{
+    width:100%;
+    padding:12px;
+    background:#e91e63;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}

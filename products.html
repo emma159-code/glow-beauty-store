@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Products</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+    <div class="logo">Glow Beauty Rwanda</div>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="products.html">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="cart.html">Cart</a></li>
+    </ul>
+</nav>
+
+<section class="products">
+
+    <div class="card">
+        <img src="images/cream.jpg" alt="">
+        <h3>Face Cream</h3>
+        <p>15,000 RWF</p>
+        <button onclick="addToCart('Face Cream',15000)">
+    Add to Cart
+</button>
+    </div>
+
+    <div class="card">
+        <img src="images/lipstick.jpg" alt="">
+        <h3>Lipstick</h3>
+        <p>8,000 RWF</p>
+        <button onclick="addToCart('Lipstick',8000)">
+    Add to Cart
+</button>
+    </div>
+
+    <div class="card">
+        <img src="images/perfume.jpg" alt="">
+        <h3>Perfume</h3>
+        <p>25,000 RWF</p>
+        <button onclick="addToCart('Perfume',25000)">
+    Add to Cart
+</button>
+    </div>
+
+    <div class="card">
+    <img src="images/lotion.jpg" alt="Body Lotion">
+    <h3>Body Lotion</h3>
+    <p>12,000 RWF</p>
+    <button onclick="addToCart('Body Lotion',12000)">
+    Add to Cart
+</button>
+</div>
+
+<div class="card">
+    <img src="images/sunscreen.jpg" alt="Sunscreen">
+    <h3>Sunscreen</h3>
+    <p>18,000 RWF</p>
+    <button onclick="addToCart('Sunscreen',18000)">
+    Add to Cart
+</button>
+</div>
+
+</section>
+
+<script src="js/cart.js"></script>
+
+</body>
+</html>
